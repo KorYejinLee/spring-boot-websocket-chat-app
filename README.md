@@ -16,3 +16,12 @@ https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 ![Websocket_Connection_vs_HTTP_Connection](https://github.com/user-attachments/assets/db48c9f7-425e-407b-b90a-2b74114986ad)
 * What is Hand Shake<br>
   the process that establishes the full duplex communication between the client and the server allowing for real-time bi-directional communication
+# Project Setting
+## Project 
+* Maven
+## Language
+* Java
+## Dependencies
+* Spring Web
+* WebSocket
+* Lombok
