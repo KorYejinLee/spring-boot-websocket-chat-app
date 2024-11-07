@@ -19,6 +19,4 @@ https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 # Project Setting
 |Project|Language|Dependencies|
 |------|---|---|
-|Maven|Java|* Spring Web
-* WebSocket
-* Lombok|
+|Maven|Java|Spring Web / WebSocket / Lombok|
