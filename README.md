@@ -17,11 +17,8 @@ https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 * What is Hand Shake<br>
   the process that establishes the full duplex communication between the client and the server allowing for real-time bi-directional communication
 # Project Setting
-## Project 
-* Maven
-## Language
-* Java
-## Dependencies
-* Spring Web
+|Project|Language|Dependencies|
+|------|---|---|
+|Maven|Java|* Spring Web
 * WebSocket
-* Lombok
+* Lombok|
