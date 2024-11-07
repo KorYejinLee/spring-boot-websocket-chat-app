@@ -11,13 +11,14 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
 @Component
-@Slf4j
+@Slf4j // just for logging
 @RequiredArgsConstructor
 public class WebSocketEventListener {
 
+    /* Mr X or Y chat disconnection event */
     private final SimpMessageSendingOperations messagingTemplate;
 
-    @EventListener
+    @EventListener // left chat
     public void handleWebSocketDisconnectListener(SessionDisconnectEvent event) {
         StompHeaderAccessor headerAccessor = StompHeaderAccessor.wrap(event.getMessage());
         String username = (String) headerAccessor.getSessionAttributes().get("username");
@@ -31,4 +32,5 @@ public class WebSocketEventListener {
         }
     }
 
+    /* back-end is ready */
 }

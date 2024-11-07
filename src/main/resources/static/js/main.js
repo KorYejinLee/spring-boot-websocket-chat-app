@@ -1,5 +1,6 @@
-'use strict';
+'use strict'; // I want to everyting to be declarative and to mention all the types
 
+/* '#id' > index.html */
 var usernamePage = document.querySelector('#username-page');
 var chatPage = document.querySelector('#chat-page');
 var usernameForm = document.querySelector('#usernameForm');
@@ -8,7 +9,7 @@ var messageInput = document.querySelector('#message');
 var messageArea = document.querySelector('#messageArea');
 var connectingElement = document.querySelector('.connecting');
 
-var stompClient = null;
+var stompClient = null; // web socket
 var username = null;
 
 var colors = [
@@ -20,8 +21,9 @@ function connect(event) {
     username = document.querySelector('#name').value.trim();
 
     if(username) {
-        usernamePage.classList.add('hidden');
+        usernamePage.classList.add('hidden'); // I know that I already have a class called hidden
         chatPage.classList.remove('hidden');
+        /*.hidden { display: none; }*/
 
         var socket = new SockJS('/ws');
         stompClient = Stomp.over(socket);
@@ -43,6 +45,12 @@ function onConnected() {
     )
 
     connectingElement.classList.add('hidden');
+    /*
+    connectingElement
+    <div class="connecting"> <!--user clicks on connect-->
+        Connecting...
+    </div>
+    */
 }
 
 

@@ -9,15 +9,17 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class ChatController {
 
-    @MessageMapping("/chat.sendMessage")
-    @SendTo("/topic/public")
+    @MessageMapping("/chat.sendMessage") // what is the URL that I want to use to invoke method send message
+    @SendTo("/topic/public") // where to send
     public ChatMessage sendMessage(
-            @Payload ChatMessage chatMessage
+            @Payload ChatMessage chatMessage // automatically send /topic/public
     ) {
         return chatMessage;
     }
 
-    @MessageMapping("/chat.addUser")
+    /* /topic is from > WebSocketConfig.java */
+
+    @MessageMapping("/chat.addUser") // when a new user connects to our chat application
     @SendTo("/topic/public")
     public ChatMessage addUser(
             @Payload ChatMessage chatMessage,
