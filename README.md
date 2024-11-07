@@ -6,3 +6,8 @@ https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 * Bi-Directional
 * Efficient
 * Persistent Connection
+# USE CASES FOR WEBSOCKETS
+* Chat Appplication
+* Real-Time Gamiing
+* Collaborative Editing
+* Live Updates
