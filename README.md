@@ -14,5 +14,5 @@ https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 * IoT(Internet of Things)
 # Websocket Connection VS HTTP Connection
 ![Websocket_Connection_vs_HTTP_Connection](https://github.com/user-attachments/assets/db48c9f7-425e-407b-b90a-2b74114986ad)
-* Hand Shake란
-  HTTP의 업그레이드 시스템이다
+* What is Hand Shake
+  the process that establishes the full duplex communication between the client and the server allowing for real-time bi-directional communication
