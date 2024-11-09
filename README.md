@@ -2,8 +2,8 @@
 # Youtube URL
 https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
 # What is websocket?
-Commucation protocol which provieds full duplex communication channel over a single TCP connection<br>
-It is designed to be impolemented in web browsers and servers<br>
+Commucation protocol which provieds full duplex communication channel over a single TCP connection<br><br>
+It is designed to be impolemented in web browsers and servers<br><br>
 Websockets provied a persistent connection between a client and server that both partes can be sued to start sending data at any time
 # Advantages of websockets
 * Real time Data Transfer
