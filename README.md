@@ -1,6 +1,8 @@
 # Spring boot chat application
 # Youtube URL
 https://www.youtube.com/watch?v=TywlS9iAZCM&t=9s
+# What is websocket?
+commucation protocol which provieds full duplex communication channel over a single TCP connection
 # Advantages of websockets
 * Real time Data Transfer
 * Bi-Directional
